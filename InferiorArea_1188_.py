@@ -1,5 +1,3 @@
-#problema da diagonal
-
 op = str(input())
 soma = 0
 i, j = 12, 12;
@@ -12,14 +10,14 @@ for x in range (i):
 if( op == "S"):
     for x in range(0, 12):
         for y in range(0, 12):
-            if( x + y > 11 ):
+            if( x>=7 and (((y>=1 and y<=5) and (x+y>=12 and x+y<=16)) or ((y>=6 and y<=10) and (x-y<=5 and x-y>=1)))):
                 soma = soma + matrix[x][y]
 
 if( op == "M"):
     for x in range(0, 12):
         for y in range(0, 12):
-            if( x + y > 11 ):
+            if( x>=7 and (((y>=1 and y<=5) and (x+y>=12 and x+y<=16)) or ((y>=6 and y<=10) and (x-y<=5 and x-y>=1)))):
                 soma = soma + matrix[x][y]
-    soma = soma/66
+    soma = soma/30
 
 print(round(soma,1))
