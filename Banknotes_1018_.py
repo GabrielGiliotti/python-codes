@@ -1,0 +1,16 @@
+N = int(input())
+cem = N / 100
+cinq = (N % 100)/ 50
+vint = ((N % 100) % 50)/20
+dez = ((( N% 100) % 50) % 20) / 10
+cinc = ((((N % 100) % 50) % 20) % 10)/ 5
+dois = (((((N % 100) % 50) % 20) % 10) % 5)/2
+um = ((((((N % 100) % 50) % 20 ) % 10) % 5) % 2)
+print(N, end="\n")
+print("%d nota(s) de R$ 100,00" % int(cem), end="\n")
+print("%d nota(s) de R$ 50,00" % int(cinq), end="\n")
+print("%d nota(s) de R$ 20,00" % int(vint), end="\n")
+print("%d nota(s) de R$ 10,00" % int(dez), end="\n")
+print("%d nota(s) de R$ 5,00" % int(cinc), end="\n")
+print("%d nota(s) de R$ 2,00" % int(dois), end="\n")
+print("%d nota(s) de R$ 1,00" % int(um), end="\n")
