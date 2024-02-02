@@ -1,6 +1,9 @@
-# Codes
+# python-codes
 
-Welcome to my repository.
+## Challenges of the old URI Online Judge site (currently called beecrowd)
 
-Enjoy the solutions codes from URI Judge site and another problems solved.
+Welcome to my repository
+
+Enjoy the solutions codes from Beecrowd and another problems solved.
+
 Observations, tips and helps is welcome as well.
